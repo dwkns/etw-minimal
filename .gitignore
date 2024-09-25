@@ -1,0 +1,10 @@
+_site
+dist
+node_modules
+yarn-error.log
+
+.DS_Store
+.env
+
+# Local Netlify folder if it exists
+.netlify
