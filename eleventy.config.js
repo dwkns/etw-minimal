@@ -1,7 +1,6 @@
 
-module.exports = (eleventyConfig) => {
 
-
+export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy({
     "src/styles/main.css": "./main.css",
   });
