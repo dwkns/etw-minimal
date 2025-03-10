@@ -1,14 +1,20 @@
-
+import { execSync } from 'child_process'
 
 export default (eleventyConfig) => {
-  eleventyConfig.addPassthroughCopy({
-    "src/styles/main.css": "./main.css",
+  eleventyConfig.addWatchTarget('src/styles/tailwind.css');
+  eleventyConfig.on("eleventy.after", () => {
+    execSync(
+      `npx @tailwindcss/cli -i ${'src/styles/tailwind.css'} -o ${'dist/styles.css'}`
+    );
   });
+  eleventyConfig.setServerOptions({
+    watch: ['dist/styles.css']
+  })
+};
 
-  return {
-    dir: {
-      input: "src",
-      output: "dist"
-    },
-  };
+export const config = {
+  dir: {
+    input: "src",
+    output: "dist",
+  },
 };
