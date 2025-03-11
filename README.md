@@ -4,6 +4,8 @@ Useful for tracking down bugs
 `yarn && yarn dev` to install and run.
 
 ## Overview
+See: [https://11ty-notion.netlify.app/using-tailwind-4-with-eleventy/](https://11ty-notion.netlify.app/using-tailwind-4-with-eleventy/) for a full description.
+
 Tailwind builds are triggered in `eleventy.after` which compiles a source CSS file `src/styles/tailwind.css` into the output folder `dist/styles.css`.
 
 Breaking it down...
