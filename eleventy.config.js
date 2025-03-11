@@ -1,20 +1,16 @@
-import { execSync } from 'child_process'
+import tailwindcss from 'eleventy-plugin-tailwindcss-4'
 
 export default (eleventyConfig) => {
-  eleventyConfig.addWatchTarget('src/styles/tailwind.css');
-  eleventyConfig.on("eleventy.after", () => {
-    execSync(
-      `npx @tailwindcss/cli -i ${'src/styles/tailwind.css'} -o ${'dist/styles.css'}`
-    );
+  eleventyConfig.addPlugin(tailwindcss, {
+    input: './src/css/tailwind.css',
+    output:'./dist/styles.css'
   });
-  eleventyConfig.setServerOptions({
-    watch: ['dist/styles.css']
-  })
 };
 
 export const config = {
+  htmlTemplateEngine: "njk",
   dir: {
     input: "src",
-    output: "dist",
+    output: "dist"
   },
 };

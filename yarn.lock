@@ -270,7 +270,7 @@
   dependencies:
     escape-string-regexp "^5.0.0"
 
-"@tailwindcss/cli@^4.0.10":
+"@tailwindcss/cli@^4.0.12":
   version "4.0.12"
   resolved "https://registry.yarnpkg.com/@tailwindcss/cli/-/cli-4.0.12.tgz#3d5314146d6919e973a6fb58be63f1e3fc175535"
   integrity sha512-ULTi5qO1tJUxhNYc4MPhS9I+OoGT5GqPkIZ9p82Bu8xe8852r3n+PDceh8U6yy1lSyGVZUu4K1S+9gShvCKXjg==
@@ -692,6 +692,14 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
+
+eleventy-plugin-tailwindcss-4@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-tailwindcss-4/-/eleventy-plugin-tailwindcss-4-1.0.8.tgz#1f782099b89bf25a4f12b904fa280f7014875f7d"
+  integrity sha512-ec7DDVr10gShCu3MYs8wroyBcea4Rh+URJ7MecQCzOJ/08CqBclmpuuWThAqf0pSPjXjIaXow6lhlMtGl8BK2A==
+  dependencies:
+    "@tailwindcss/cli" "^4.0.12"
+    tailwindcss "^4.0.12"
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -1688,7 +1696,7 @@ strip-bom-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/strip-bom-string/-/strip-bom-string-1.0.0.tgz#e5211e9224369fbb81d633a2f00044dc8cedad92"
   integrity sha512-uCC2VHvQRYu+lMh4My/sFNmF2klFymLX1wHJeXnbEJERpV/ZsVuonzerjfrGpIGF7LBVa1O7i9kjiWvJiFck8g==
 
-tailwindcss@4.0.12, tailwindcss@^4.0.10:
+tailwindcss@4.0.12, tailwindcss@^4.0.12:
   version "4.0.12"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.0.12.tgz#71ab22c78810303b1156354bcc561a747169b5bd"
   integrity sha512-bT0hJo91FtncsAMSsMzUkoo/iEU0Xs5xgFgVC9XmdM9bw5MhZuQFjPNl6wxAE0SiQF/YTZJa+PndGWYSDtuxAg==
