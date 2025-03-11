@@ -693,10 +693,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
-eleventy-plugin-tailwindcss-4@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-tailwindcss-4/-/eleventy-plugin-tailwindcss-4-1.0.8.tgz#1f782099b89bf25a4f12b904fa280f7014875f7d"
-  integrity sha512-ec7DDVr10gShCu3MYs8wroyBcea4Rh+URJ7MecQCzOJ/08CqBclmpuuWThAqf0pSPjXjIaXow6lhlMtGl8BK2A==
+eleventy-plugin-tailwindcss-4@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-tailwindcss-4/-/eleventy-plugin-tailwindcss-4-1.0.9.tgz#55e963171091e694c8443b4ecf86691c70291eb5"
+  integrity sha512-WjDWpRk1L/aPSm5jUxdWjT20JeQq4/6K31TJC5qbxsI0YBjbLb1NitFIXC82wBNnw1Ub3QXlL/Vq0KuIbcPulw==
   dependencies:
     "@tailwindcss/cli" "^4.0.12"
     tailwindcss "^4.0.12"
