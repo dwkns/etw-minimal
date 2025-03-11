@@ -1,4 +1,4 @@
-# Minimal repo with 11ty and Tailwind
+# Minimal repo with 11ty and Tailwind 4
 Useful for tracking down bugs
 
 `yarn && yarn dev` to install and run.
