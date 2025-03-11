@@ -13,7 +13,7 @@
   "scripts": {
     "clean": "npx rimraf dist build",
     "dev": "npm run clean && eleventy --serve --quiet",
-    "build": "npm run clean && eleventy --serve"
+    "build": "npm run clean && eleventy"
   },
   "author": "dwkns"
 }
