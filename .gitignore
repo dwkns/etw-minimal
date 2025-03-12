@@ -1,10 +1,18 @@
+#system files
+.DS_Store
+
+# 11ty folders
 _site
 dist
-node_modules
-yarn-error.log
 
-.DS_Store
+# package managers
+node_modules
+yarn.lock
+yarn-error.log
+package-lock.json
+
+# enviroment variables
 .env
 
-# Local Netlify folder if it exists
+# Netlify build folder
 .netlify
