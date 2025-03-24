@@ -6,7 +6,6 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-vite": "^6.0.0",
-    "@tailwindcss/cli": "^4.0.12",
     "@tailwindcss/vite": "^4.0.14",
     "rimraf": "^6.0.1",
     "tailwindcss": "^4.0.12"
