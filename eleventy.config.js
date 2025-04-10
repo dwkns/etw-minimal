@@ -1,12 +1,9 @@
-import EleventyVitePlugin from "@11ty/eleventy-plugin-vite";
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from 'eleventy-plugin-tailwindcss-4'
 
 export default (eleventyConfig) => {
-  eleventyConfig.addPassthroughCopy({"src/css/tailwind.css":"styles.css"});
-
-	eleventyConfig.addPlugin(EleventyVitePlugin, { 
-    viteOptions: { plugins: [tailwindcss()] } 
-  });
+  eleventyConfig.addPlugin(tailwindcss, {
+    input: 'css/tailwind.css' 
+  } );
 
 };
 
