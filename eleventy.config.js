@@ -1,5 +1,6 @@
 import tailwindcss from 'eleventy-plugin-tailwindcss-4'
 
+/** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default (eleventyConfig) => {
   eleventyConfig.addPlugin(tailwindcss, {
     input: 'css/tailwind.css' 
