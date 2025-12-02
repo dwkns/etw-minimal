@@ -3,4 +3,4 @@ Pretty much the smallest Eleventy and Tailwind 4 repo.
 
 Useful for tracking down bugs
 
-`yarn && yarn dev` to install and run.
+`npm install && npm run dev` to install and run.
